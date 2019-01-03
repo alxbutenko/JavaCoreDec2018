@@ -10,7 +10,7 @@ public class Epsilon {
                 return Double.parseDouble (reader.readLine ());
             }
             catch (Exception ex) {
-                System.out.println ("Please enter a number in a valid format!");
+                System.out.println ("Please enter number in a valid format!");
             }
         }
     }
