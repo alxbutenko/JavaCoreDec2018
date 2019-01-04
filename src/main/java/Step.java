@@ -17,7 +17,7 @@ public class Step {
                 }
 
             } catch (IllegalStateException ex) {
-                System.out.println ("Step must be > 0!");
+                System.out.println ("Step must be greater than \'0\'!");
             } catch (Exception ex) {
                 System.out.println ("Please enter number in a valid format (int or double)!");
             }
