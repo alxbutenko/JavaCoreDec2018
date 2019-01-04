@@ -28,7 +28,7 @@ public class RangeSetting {
                 }
 
             } catch (IllegalStateException ex) {
-                System.out.println ("End point must be more than start point!");
+                System.out.println ("End point must be greater than start point!");
             } catch (Exception ex) {
                 System.out.println ("Please enter number in a valid format (int or double)!");
             }
