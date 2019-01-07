@@ -4,7 +4,6 @@ import java.util.Objects;
  * @author Alexander Butenko
  * Class Note to create and compare Notes
  */
-
 public class Note {
     String note;
 

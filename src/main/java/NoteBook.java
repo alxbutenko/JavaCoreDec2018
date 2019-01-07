@@ -10,7 +10,6 @@ import java.util.List;
  * @see Note
  * Methods to read / edit / delete / add note to Array
  * */
-
 public class NoteBook {
 
     /**

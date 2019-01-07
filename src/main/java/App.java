@@ -6,8 +6,7 @@ import java.io.InputStreamReader;
  * @author Alexander Butenko
  * Class with Main method.
  * Methods to get User commands to make changes in NoteBook
- * */
-
+ */
 public class App {
     public static void main(String[] args) {
         NoteBook noteBook = new NoteBook ();
@@ -19,8 +18,7 @@ public class App {
      * Method to call add / edit / remove / watch all entries (notes) in notebook
      * Also terminates program if it can't detect correct action with Notebook
      * 1. add / 2. remove / 3. edit / 4. read all notes
-     * */
-
+     */
     private static void notePadRun(NoteBook noteBook) {
         int command;
 
@@ -52,8 +50,7 @@ public class App {
      * @author Alexander Butenko
      * Method to get User action with Notebook
      * @return index of command or "0" if can't parse Integer.
-     * */
-
+     */
     private static int getCommand() {
         String tempString;
         int command = 0;
