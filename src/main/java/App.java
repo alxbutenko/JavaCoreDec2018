@@ -77,7 +77,7 @@ public class App {
         try {
             command = Integer.parseInt (comm);
         } catch (Exception e) {
-            command = 0;
+            return 0;
         }
 
         return command;
