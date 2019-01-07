@@ -55,8 +55,8 @@ public class App {
      * */
 
     private static int getCommand() {
-        int command;
-        String comm = null;
+        String tempString;
+        int command = 0;
 
         System.out.println ();
         System.out.println ("Enter command:");
@@ -69,13 +69,10 @@ public class App {
         BufferedReader reader = new BufferedReader (new InputStreamReader (System.in));
 
         try {
-            comm = reader.readLine ();
+            tempString = reader.readLine ();
+            command = Integer.parseInt (tempString);
         } catch (IOException e) {
             e.printStackTrace ();
-        }
-        
-        try {
-            command = Integer.parseInt (comm);
         } catch (Exception e) {
             return 0;
         }
