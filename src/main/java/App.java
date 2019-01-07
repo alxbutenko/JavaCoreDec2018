@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 /**
  * @author Alexander Butenko
  * Class with Main method.
- * Get User commands to make changes in NoteBook
+ * Methods to get User commands to make changes in NoteBook
  * */
 
 public class App {
