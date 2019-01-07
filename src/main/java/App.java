@@ -31,12 +31,12 @@ public class App {
                 System.out.println ("Enter new note: ");
                 noteBook.addNote (noteBook.getNote ());
             } else if (command == 2) {
-                System.out.println ("Enter a note to remove from the Notebook: ");
+                System.out.println ("Enter note to remove from the Notebook: ");
                 noteBook.removeNote (noteBook.getNote ());
             } else if (command == 3) {
-                System.out.println ("Enter a note for edit: ");
+                System.out.println ("Enter note for editing: ");
                 Note oldNote = noteBook.getNote ();
-                System.out.println ("Enter new text for \"" + oldNote.note +"\"");
+                System.out.println ("Enter new text for \"" + oldNote.note + "\"");
                 Note changedNote = noteBook.getNote ();
                 noteBook.editNote (oldNote, changedNote);
             } else if (command == 4) {
